@@ -18,6 +18,9 @@ Write good commit messages. Take a look at [5 Useful Tips For A Better Commit Me
 ## Ruby / Rails
 See the [Elevator Up Ruby / Rails Development Guide](ruby_rails.md)
 
+## Front End
+See the [Elevator Up Front End Development Guide](front_end.md)
+
 ## Continuous Integration
 We are currently using [Travis](https://travis-ci.com/) for Continuous Integration.
 
