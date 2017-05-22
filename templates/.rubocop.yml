@@ -1,0 +1,37 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+
+Documentation:
+  Enabled: false
+
+LineLength:
+  Max: 120
+
+MethodLength:
+  Max: 25
+
+IfUnlessModifier:
+  MaxLineLength: 75
+
+Metrics/AbcSize:
+  Max: 20
+
+TrailingCommaInArguments:
+  Enabled: false
+
+TrailingCommaInLiteral:
+  Enabled: false
+
+WordArray:
+  Enabled: false
+
+# Style
+
+Style/IndentationWidth:
+  # Number of spaces for each indentation level.
+  Width: 2
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
