@@ -2,7 +2,8 @@
 
 1. [Common Gems](#common-gems)
 2. [Ruby Style Guide](#ruby-style-guide)
-3. [RubuCop](#rubocop)
+3. [Rails Style Guide](#rails-style-guide)
+4. [RubuCop](#rubocop)
 
 ### Common Gems
 In order to try and keep a consistency between projects, this is a list of some of our preferred gems. This is by no means a definitive list, just what we prefer to use for certain situations.
@@ -44,3 +45,5 @@ As we move forward, we may fork this style guide and update it to match our codi
 
 ### RuboCop
 We are using [RuboCop](https://github.com/bbatsov/rubocop) to analyze our code and make sure it meets our standards (listed in the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) and [Rails Style Guide](https://github.com/bbatsov/rails-style-guide).
+
+A template for our Rubocop config can be found [here](templates/rails/.rubocop.yml).
