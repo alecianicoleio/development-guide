@@ -1,0 +1,60 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+
+# Enable / Disable Cops
+
+Documentation:
+  Enabled: false
+
+TrailingCommaInArguments:
+  Enabled: false
+
+TrailingCommaInLiteral:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+# Style
+
+Style/IndentationWidth:
+  # Number of spaces for each indentation level.
+  Width: 2
+
+LineLength:
+  Max: 120
+
+MethodLength:
+  Max: 25
+
+IfUnlessModifier:
+  MaxLineLength: 75
+
+Metrics/AbcSize:
+  Max: 20
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: true
+
+BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
