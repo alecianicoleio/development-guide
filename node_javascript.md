@@ -1,7 +1,7 @@
 # ![Elevator Up](http://elevatorup.com/img/eulogo-87259dc5.png)  Node / ECMAscript(JavaScript) Development Guide
 
 1. [Common Packages](#common-packages)
-2. [ECMAscript Style Guide](#javascript-style-guide)
+2. [ECMAscript Style Guide](#ecmascript-style-guide)
 3. [Eslint](#eslint)
 4. [ES6 tricks](#es6-tricks)
 
